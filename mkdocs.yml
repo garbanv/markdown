@@ -1,0 +1,8 @@
+site_name: 'markdown'
+
+nav:
+  - Home: index.md
+
+plugins:
+  - techdocs-core
+  
