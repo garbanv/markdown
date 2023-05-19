@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "markdown"
+  annotations:
+    backstage.io/techdocs-ref: value
+  links:
+    - url: https://platformable.com
+      title: My Dashboard
+      icon: dashboard
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
